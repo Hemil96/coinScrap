@@ -4,7 +4,7 @@
   "description": "Scrap dogecoin price",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,7 +24,6 @@
   "homepage": "https://github.com/Hemil96/coinScrap#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "cors": "^2.8.5",
     "express": "^4.17.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.6"
