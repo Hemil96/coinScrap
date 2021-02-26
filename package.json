@@ -30,6 +30,6 @@
     "request-promise": "^4.2.6"
   },
   "engines": {
-    "node": "13heroku .x"
+    "node": "13.12.0"
   }
 }
