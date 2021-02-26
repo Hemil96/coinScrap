@@ -1,8 +1,11 @@
 const express = require('express')
 const axios = require('axios');
+var cors = require('cors')
 const { response } = require('express');
 const app = express()
 const port = 3001
+
+app.use(cors)
 
 app.get('/', async (req, res) => {
   
