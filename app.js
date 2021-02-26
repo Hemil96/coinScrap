@@ -5,10 +5,9 @@ const { response } = require('express');
 const app = express()
 const port = 3001
 
-app.use(cors)
+app.use(cors())
 
 app.get('/', async (req, res) => {
-  
   const url = 'https://api.wazirx.com/api/v2/tickers/dogeusdt';
   let data = ''
 
